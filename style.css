@@ -27,46 +27,12 @@
   src: url("assets/fonts/Inter-Bold.woff") format("woff");
 }
 
-@font-face {
-  font-family: "Inter Bold Italic";
-  font-style: italic;
-  font-weight: 700;
-  src: url("assets/fonts/Inter-BoldItalic.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Inter Extra Bold";
-  font-style: normal;
-  font-weight: 800;
-  src: url("assets/fonts/Inter-ExtraBold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Inter Black";
-  font-style: normal;
-  font-weight: 900;
-  src: url("assets/fonts/Inter-Black.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Inter Black Italic";
-  font-style: italic;
-  font-weight: 900;
-  src: url("assets/fonts/Inter-BlackItalic.woff") format("woff");
-}
-
 /* CSS CUSTOM PROPERTIES(VARIABLES) */
 :root {
-  --ff-inter-extra-light-200: "Inter Extra Light", sans-serif;
-  --ff-inter-light-300: "Inter Light", sans-serif;
   --ff-inter-regular-400: "Inter Regular", sans-serif;
   --ff-inter-medium-500: "Inter Medium", sans-serif;
   --ff-inter-semi-bold-600: "Inter Semi Bold", sans-serif;
   --ff-inter-bold-700: "Inter Bold", sans-serif;
-  --ff-inter-bold-700-italic: "Inter Bold Italic", sans-serif;
-  --ff-inter-extra-bold-800: "Inter Extra Bold", sans-serif;
-  --ff-inter-black-900: "Inter Black", sans-serif;
-  --ff-inter-black-900-italic: "Inter Black Italic", sans-serif;
 }
 
 /* RESET ****************************************/
@@ -762,7 +728,8 @@ header {
   position: absolute;
   top: 0;
   content: "";
-  background: url("https://zaposlise.hr/wp-content/themes/ngtheme/assets/i/dotline2.png") left top repeat;
+  background: url("https://zaposlise.hr/wp-content/themes/ngtheme/assets/i/dotline2.png")
+    left top repeat;
   width: 268px;
   height: 318px;
   opacity: 0.4;
@@ -1092,7 +1059,9 @@ header {
 .footer {
   padding-block: 40px;
   width: 100%;
-  background: #f9f9f9 url("https://zaposlise.hr/wp-content/themes/ngtheme/assets/i/footer-bg.jpg") center center no-repeat;
+  background: #f9f9f9
+    url("https://zaposlise.hr/wp-content/themes/ngtheme/assets/i/footer-bg.jpg")
+    center center no-repeat;
   background-size: cover !important;
   color: #696870;
 }
